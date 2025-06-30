@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD NUR ISLAM - Professional Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+        }
+        .section-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #6366f1;
+            padding-bottom: 0.5rem;
+        }
+        .card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
+            transition: box-shadow 0.3s;
+        }
+        .card:hover {
+            box-shadow: 0 10px 15px -3px rgba(99,102,241,0.1), 0 4px 6px -2px rgba(99,102,241,0.05);
+        }
+        .nav-link {
+            color: #4b5563;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            transition: color 0.2s, background-color 0.2s;
+            text-decoration: none;
+        }
+        .nav-link:hover, .nav-link:focus {
+            color: #4f46e5;
+            background-color: #f1f5f9;
+            outline: none;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-indigo-600 focus:outline-none">MD NUR ISLAM</a>
+            <div class="space-x-4">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-20 md:py-32 overflow-hidden">
+        <div class="container mx-auto px-4 text-center relative z-10"></div>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
+               
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">MD NUR ISLAM</h1>
+                    <p class="text-xl md:text-2xl font-light mb-6">Operations Officer | Business Development Professional</p>
+                    <p class="max-w-2xl mx-auto md:mx-0 text-lg">
+                        A Bachelor of Business Administration (HRM) graduate with over two years of experience in operations,
+                        project management, and business development. Passionate about management strategies, workplace
+                        diversity, and driving innovation.
+                    </p>
+                    <div class="mt-8 flex justify-center md:justify-start space-x-4">
+                        <a href="mailto:nurislamsub@gmail.com" class="bg-white text-indigo-700 hover:bg-indigo-100 font-semibold py-3 px-6 rounded-lg shadow-md transition-colors duration-300 focus:outline-none">
+                            Email Me
+                        </a>
+                        <a href="https://linkedin.com/in/nurlslam" target="_blank" rel="noopener noreferrer" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-indigo-700 font-semibold py-3 px-6 rounded-lg transition-colors duration-300 focus:outline-none">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Abstract Shapes for background effect -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#818CF8" stop-opacity="1" />
+                        <stop offset="100%" stop-color="#A78BFA" stop-opacity="1" />
+                    </linearGradient>
+                    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#6366F1" stop-opacity="1" />
+                        <stop offset="100%" stop-color="#8B5CF6" stop-opacity="1" />
+                    </linearGradient>
+                    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#4F46E5" stop-opacity="1" />
+                        <stop offset="100%" stop-color="#7C3AED" stop-opacity="1" />
+                    </linearGradient>
+                </defs>
+                <circle cx="20" cy="20" r="15" fill="url(#grad1)"></circle>
+                <circle cx="80" cy="40" r="25" fill="url(#grad2)"></circle>
+                <circle cx="40" cy="80" r="20" fill="url(#grad3)"></circle>
+            </svg>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 py-12 space-y-16">
+
+        <!-- About Me Section -->
+        <section id="about" class="card">
+            <h2 class="section-title">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                I am Nur Islam, a Bachelor of Business Administration (HRM) graduate from Stamford University Bangladesh.
+                With over two years of experience as an Operations Officer at VFS Global, I bring expertise in administrative
+                tasks, vendor management, and customer service. My professional journey also includes a role as an Executive
+                Business Development professional for ERP at Access Telecom (BD) Ltd., where I engaged with clients, offered
+                pre-sales technical support, and refined unique selling propositions.
+            </p>
+            <p class="text-lg leading-relaxed mt-4">
+                I have completed specialized training in HR analytics, project management, and talent acquisition,
+                and I am deeply passionate about management strategies and workplace diversity. Beyond my professional
+                endeavors, I am actively involved in community service, volunteering with the Bismay Foundation and
+                participating in blood donation and disaster relief initiatives. My long-term goal is to become a
+                successful business owner, driving innovation and growth, and I am currently seeking higher education
+                opportunities in Europe to further enhance my business operations and management skills.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="card">
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Bachelor of Business Administration (HRM)</h3>
+                    <p class="text-indigo-600">Stamford University Bangladesh</p>
+                    <p class="text-gray-500">Dhaka, Bangladesh | 12/2021 | CGPA: 3.57/4.00</p>
+                    <p class="mt-2 text-gray-700">Relevant Courses (A & A+): Industrial Relations, Human Resource Management, International Management, Training & Development, Organizational Change & Development, Environmental Management, Operations & Management of NGO, Financial Accounting, Management Accounting, Business Communication, and Business Taxation.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Higher Secondary School Certificate (Business Studies)</h3>
+                    <p class="text-indigo-600">Government Yasin College Faridpur</p>
+                    <p class="text-gray-500">Faridpur, Bangladesh | 08/2013 | GPA: 3.40/5.00</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Secondary School Certificate (Business Studies)</h3>
+                    <p class="text-indigo-600">Laskardia Atiqur Rahman High School</p>
+                    <p class="text-gray-500">Faridpur, Bangladesh | 05/2011 | GPA: 4.44/5.00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="card">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Operations Officer</h3>
+                    <p class="text-indigo-600">VFS Global Bangladesh Pvt. Ltd.</p>
+                    <p class="text-gray-500">Dhaka, Bangladesh | 02/2023 - Present</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Manage daily operations, setting goals, optimizing resource allocation, and leading teams to ensure efficient service delivery for a leading visa and passport service provider.</li>
+                        <li>Successfully handled customer complaints, coordinated with internal stakeholders, and implemented strategic initiatives to enhance operational efficiency.</li>
+                        <li>Possess over two years of expertise in administrative tasks, vendor management, and customer service.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Executive Business Development, ERP</h3>
+                    <p class="text-indigo-600">Access Telecom (BD) Ltd. (SAP Business One ERP Bangladesh)</p>
+                    <p class="text-gray-500">Dhaka, Bangladesh | 04/2022 - 01/2023</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700"></ul>
+                        <li>Engaged with clients and offered pre-sales technical support for ERP solutions.</li>
+                        <li>Collaborated on tailored proposals and conducted market research to refine unique selling propositions.</li>
+                        <li>Participated in promotional strategy discussions with Sales & Marketing and submitted regular progress reports for CRM data management.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Internship</h3>
+                    <p class="text-indigo-600">Sonali Bank Limited</p>
+                    <p class="text-gray-500">Dhaka, Bangladesh | 11/2021 - 01/2022</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Assisted clients with account openings, balanced the pay order register, and checked account statements.</li>
+                        <li>Provided product information, managed incoming checks, and handled document filing and checkbook requisitions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="card">
+            <h2 class="section-title">Skills & Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">Soft Skills</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Leadership Skills</li>
+                        <li>Communication Skills</li>
+                        <li>Customer Service</li>
+                        <li>Teamwork and Collaboration</li>
+                        <li>Negotiation Skills</li>
+                        <li>Problem Solving Skills</li>
+                        <li>Adaptability Skills</li>
+                        <li>Organizational Skills</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">Courses & Training</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Compliance and Risk Management (HRCI) - 06/2024</li>
+                        <li>Project Management: Foundations and Initiation (University of Colorado) - 10/2024</li>
+                        <li>Talent Acquisition (HRCI) - 02/2024</li>
+                        <li>Learning and Development (HRCI) - 05/2024</li>
+                        <li>Work Smarter with Microsoft Excel (Microsoft) - 06/2023</li>
+                        <li>Human Resources Analytics (University of California, Irvine) - 05/2023</li>
+                        <li>Preparing to Manage Human Resources (University of Minnesota) - 05/2023</li>
+                        <li>Fundamentals of Project Planning and Management (The University of Virginia) - 05/2023</li>
+                        <li>Employee Relations (HRCI) - 08/2024</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">Languages</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>English</li>
+                        <li>Bengali</li>
+                        <li>Hindi</li>
+                        <li>Urdu</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Co-Curriculum Activities Section -->
+        <section id="activities" class="card">
+            <h2 class="section-title">Co-Curriculum Activities</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Volunteer Member, Bismay Foundation</h3>
+                    <p class="text-gray-500">Shyamoli, Mohammadpur, Bangladesh | 04/2022 - Present</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Supported underprivileged children in rural areas by providing essential supplies like clean water, stationery, and educational materials.</li>
+                        <li>Assisted in organizing medical camps and arranging nutritious meals for children in underserved communities.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Member, Ora Agaro Jon Cooperative Society</h3>
+                    <p class="text-gray-500">Faridpur, Bangladesh | 06/2021 - Present</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Collaborated with 16 members to support community growth through savings programs, skill development workshops, and community projects.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Member, Stamford University Business Forum</h3>
+                    <p class="text-gray-500">Dhaka, Bangladesh</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Organized and participated in monthly events, including guest lectures, workshops, and networking sessions.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Artist, Faridpur Cultural Events</h3>
+                    <p class="text-gray-500">Faridpur, Bangladesh | 12/2012</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700"></ul>
+                        <li>Performed as an artist in cultural events such as "Pohela Boishakh" at Jasimuddin Hall, showcasing passion for art and cultural expression.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Volunteer, Govt. Yasin College Cultural Events</h3>
+                    <p class="text-gray-500">Faridpur, Bangladesh | 09/2011 - 06/2013</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700"></ul>
+                        <li>Contributed as a volunteer during "Annual Cultural Day" and other college cultural events, supporting event coordination, logistics, and participant management.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card text-center"></section>
+            <h2 class="section-title mx-auto w-fit">Get in Touch</h2>
+            <p class="text-lg mb-6">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <div class="text-center">
+                    <p class="text-lg font-semibold text-indigo-700">Email:</p>
+                    <a href="mailto:nurislamsub@gmail.com" class="text-indigo-600 hover:underline focus:outline-none">nurislamsub@gmail.com</a>
+                </div>
+                <div class="text-center"></div>
+                    <p class="text-lg font-semibold text-indigo-700">Phone:</p>
+                    <p>+8801715987336</p>
+                </div>
+                <div class="text-center"></div>
+                    <p class="text-lg font-semibold text-indigo-700">LinkedIn:</p>
+                    <a href="https://linkedin.com/in/nurlslam" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline focus:outline-none">linkedin.com/in/nurlslam</a>
+                </div>
+            </div>
+            <div class="mt-8 text-gray-600"></div>
+                <p><strong>Address:</strong> 357/12/A/C, Modhubag, Hatirjheel, Dhaka-1217, Bangladesh</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12"></footer>
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 MD NUR ISLAM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links (for browsers that don't support CSS scroll-behavior)
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    target.setAttribute('tabindex', '-1');
+                    target.focus({ preventScroll: true });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
