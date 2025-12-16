@@ -67,7 +67,7 @@ export default function Home() {
                   <span>Email Me</span>
                   <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </a>
-                <a href="https://linkedin.com/in/nurlslam" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-green-600 text-green-700 hover:bg-green-50 font-bold text-lg rounded-xl transition-all duration-300 flex items-center gap-3">
+                <a href="https://www.linkedin.com/in/nur1slam/" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-green-600 text-green-700 hover:bg-green-50 font-bold text-lg rounded-xl transition-all duration-300 flex items-center gap-3">
                   <FaLinkedin />
                   <span>LinkedIn</span>
                 </a>
