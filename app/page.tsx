@@ -407,7 +407,7 @@ export default function Home() {
                     <FaLinkedin className="text-purple-600 text-2xl" />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">LinkedIn</h3>
-                  <a href="https://linkedin.com/in/nurlslam" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline text-sm">linkedin.com/in/nurlslam</a>
+                  <a href="https://linkedin.com/in/nur1slam" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline text-sm">linkedin.com/in/nurlslam</a>
                 </div>
               </div>
               <div className="mt-8 p-5 bg-gray-50 rounded-2xl text-center">
