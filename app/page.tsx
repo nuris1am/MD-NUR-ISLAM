@@ -77,7 +77,7 @@ export default function Home() {
               <div className="w-full max-w-md mx-auto">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
-                  <img src="/images/profile.png"
+                  <img src="/profile.png"
                     alt="Profile"
                     className="relative rounded-3xl shadow-2xl w-full object-cover aspect-square border-4 border-white group-hover:scale-105 transition-transform duration-300" />
                 </div>
