@@ -434,7 +434,7 @@ export default function Home() {
                 <a href="mailto:nurislamsub@gmail.com" className="w-12 h-12 bg-gray-800 hover:bg-green-600 rounded-xl flex items-center justify-center transition-all duration-300">
                   <FaEnvelope />
                 </a>
-                <a href="https://linkedin.com/in/nurlslam" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-xl flex items-center justify-center transition-all duration-300">
+                <a href="https://www.linkedin.com/in/nur1slam/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-xl flex items-center justify-center transition-all duration-300">
                   <FaLinkedin />
                 </a>
               </div>
