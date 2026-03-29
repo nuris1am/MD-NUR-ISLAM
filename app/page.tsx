@@ -130,7 +130,7 @@ export default function Home() {
                         <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
                           <FaBriefcase className="text-green-600 text-sm" />
                         </div>
-                        <span className="text-sm">2+ Years Experience</span>
+                        <span className="text-sm">3+ Years Experience</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
