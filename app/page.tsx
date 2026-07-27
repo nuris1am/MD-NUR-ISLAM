@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { FaArrowRight, FaBars, FaBriefcase, FaCalendarAlt, FaCertificate, FaCheck, FaCheckCircle, FaCircle, FaEnvelope, FaGraduationCap, FaInfoCircle, FaLanguage, FaLinkedin, FaMapMarkerAlt, FaPhone, FaStar, FaTimes, FaUniversity, FaUsers } from 'react-icons/fa';
 
 export default function Home() {
@@ -56,10 +57,10 @@ export default function Home() {
                 Hello, I&apos;m <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">MD NUR ISLAM</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 font-medium">
-                Operations Officer | Business Development Professional
+                Operations Officer | Aspiring HR Strategist
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                A Bachelor of Business Administration (HRM) graduate with over two years of experience in operations, project management, and business development. Passionate about management strategies and driving innovation.
+                A Bachelor of Business Administration (HRM) graduate with expertise in operations, project management, and business development. Passionate about organizational behavior and strategic HRM, I am seeking Master&apos;s degree opportunities to advance research in workplace diversity, cross-cultural environments, and HR analytics.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <a href="mailto:nurislamsub@gmail.com" className="group relative px-8 py-4 bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 hover:from-green-700 hover:via-emerald-700 hover:to-teal-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center gap-3 overflow-hidden">
@@ -77,8 +78,10 @@ export default function Home() {
               <div className="w-full max-w-md mx-auto">
                 <div className="relative group">
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
-                  <img src="/profile.png"
+                  <Image src="/profile.png"
                     alt="Profile"
+                    width={500}
+                    height={500}
                     className="relative rounded-3xl shadow-2xl w-full object-cover aspect-square border-4 border-white group-hover:scale-105 transition-transform duration-300" />
                 </div>
               </div>
@@ -99,13 +102,13 @@ export default function Home() {
               <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 space-y-4 text-gray-700 text-lg leading-relaxed">
                   <p>
-                    I am Nur Islam, a Bachelor of Business Administration (HRM) graduate from Stamford University Bangladesh. With over two years of experience as an Operations Officer at VFS Global, I bring expertise in administrative tasks, vendor management, and customer service.
+                    I am Nur Islam, an Operations Officer at VFS Global and a proud BBA graduate in Human Resource Management from Stamford University Bangladesh (GPA: 3.57/4.00). I bring strong expertise in operational efficiency, customer service, and strategic cross-functional collaboration.
                   </p>
                   <p>
-                    My professional journey also includes a role as an Executive Business Development professional for ERP at Access Telecom (BD) Ltd., where I engaged with clients, offered pre-sales technical support, and refined unique selling propositions.
+                    My background spans across leading visa processing operations to driving enterprise ERP business development. Through this hands-on experience and my academic training, I have developed a keen interest in HR analytics and talent development.
                   </p>
                   <p>
-                    I have completed specialized training in HR analytics, project management, and talent acquisition. My long-term goal is to become a successful business owner, driving innovation and growth.
+                    <strong>Objective:</strong> I am actively seeking Master&apos;s degree opportunities at internationally recognized universities. I aim to advance my expertise in organizational behavior, strategic HRM, and workplace diversity & inclusion, applying data-driven research to solve complex cross-cultural challenges.
                   </p>
                 </div>
                 <div className="space-y-4">
@@ -197,8 +200,10 @@ export default function Home() {
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-green-500 rounded-full border-4 border-white shadow"></div>
                 <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="flex items-start gap-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=100&h=100&fit=crop"
+                    <Image src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=100&h=100&fit=crop"
                       alt="VFS Global"
+                      width={64}
+                      height={64}
                       className="w-16 h-16 rounded-xl object-cover" />
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">Operations Officer</h3>
@@ -233,8 +238,10 @@ export default function Home() {
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow"></div>
                 <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="flex items-start gap-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100&h=100&fit=crop"
+                    <Image src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100&h=100&fit=crop"
                       alt="Access Telecom"
+                      width={64}
+                      height={64}
                       className="w-16 h-16 rounded-xl object-cover" />
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">Executive Business Development, ERP</h3>
@@ -263,8 +270,10 @@ export default function Home() {
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow"></div>
                 <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="flex items-start gap-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=100&h=100&fit=crop"
+                    <Image src="https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=100&h=100&fit=crop"
                       alt="Sonali Bank"
+                      width={64}
+                      height={64}
                       className="w-16 h-16 rounded-xl object-cover" />
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">Internship</h3>
@@ -282,6 +291,75 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Involvement Section */}
+      <section id="involvement" className="relative py-20 lg:py-32">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">Involvement & Volunteering</h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-orange-500 to-amber-600 mx-auto rounded-full"></div>
+            </div>
+            <div className="space-y-6">
+              
+              <div className="bg-white rounded-2xl border border-orange-100 p-6 shadow-lg hover:shadow-xl transition-all">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <FaUsers className="text-orange-600 text-xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Member</h3>
+                    <p className="text-orange-600 font-semibold">Ora Agaro Jon Cooperative Society</p>
+                    <p className="text-gray-500 text-sm mb-3">Faridpur, Bangladesh | June 2021 - Present</p>
+                    <ul className="list-disc pl-5 text-gray-700 space-y-1 text-sm">
+                      <li>Collaborated with 16 members to support community growth through savings programs, skill development workshops, and community projects.</li>
+                      <li>Contributed to sustainable development initiatives that drove positive change for underprivileged communities.</li>
+                      <li>Demonstrated teamwork and shared responsibility in delivering cooperative society programs over 4+ years.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-amber-100 p-6 shadow-lg hover:shadow-xl transition-all">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <FaBriefcase className="text-amber-600 text-xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Member</h3>
+                    <p className="text-amber-600 font-semibold">Stamford University Business Forum</p>
+                    <p className="text-gray-500 text-sm mb-3">Dhaka, Bangladesh | May 2017 - Present</p>
+                    <ul className="list-disc pl-5 text-gray-700 space-y-1 text-sm">
+                      <li>Organized and participated in 90+ monthly events over 8 years, including guest lectures, workshops, and networking sessions held at universities and businesses across Dhaka.</li>
+                      <li>Enhanced leadership, communication, and business acumen through active engagement with 50+ business professionals and academic leaders.</li>
+                      <li>Facilitated 20+ collaboration and innovation initiatives to achieve organizational goals and strengthen university-business partnerships.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-yellow-200 p-6 shadow-lg hover:shadow-xl transition-all">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <FaCheckCircle className="text-yellow-600 text-xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Volunteer Member</h3>
+                    <p className="text-yellow-600 font-semibold">Bismay Foundation</p>
+                    <p className="text-gray-500 text-sm mb-3">Shyamoli, Mohammadpur, Bangladesh | April 2022 - October 2023</p>
+                    <ul className="list-disc pl-5 text-gray-700 space-y-1 text-sm">
+                      <li>Supported 50+ underprivileged children in rural areas by providing essential supplies including clean water, stationery, and educational materials.</li>
+                      <li>Assisted in organizing 26 medical camps and arranging nutritious meals for children in underserved communities.</li>
+                      <li>Strengthened organizational and teamwork skills while working collectively with volunteer team to deliver community service initiatives.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -316,21 +394,33 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Certifications</h3>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-center gap-2">
-                    <FaCheckCircle className="text-blue-600" />
-                    <span>Project Management (U of Colorado)</span>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Relationship Mgmt & Business Development</span></div>
+                    <span className="text-xs text-gray-500 ml-6">Starweaver &bull; 2025</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <FaCheckCircle className="text-blue-600" />
-                    <span>HR Analytics (UC Irvine)</span>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Project Management: Foundations</span></div>
+                    <span className="text-xs text-gray-500 ml-6">University of Colorado &bull; 10/2024</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <FaCheckCircle className="text-blue-600" />
-                    <span>Talent Acquisition (HRCI)</span>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Employee Relations</span></div>
+                    <span className="text-xs text-gray-500 ml-6">HRCI &bull; 08/2024</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <FaCheckCircle className="text-blue-600" />
-                    <span>Compliance & Risk (HRCI)</span>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Learning and Development</span></div>
+                    <span className="text-xs text-gray-500 ml-6">HRCI &bull; 05/2024</span>
+                  </li>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Talent Acquisition</span></div>
+                    <span className="text-xs text-gray-500 ml-6">HRCI &bull; 02/2024</span>
+                  </li>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Human Resources Analytics</span></div>
+                    <span className="text-xs text-gray-500 ml-6">UC Irvine &bull; 05/2023</span>
+                  </li>
+                  <li className="flex flex-col gap-1">
+                    <div className="flex items-start gap-2"><FaCheckCircle className="text-blue-600 mt-1 flex-shrink-0" /><span className="font-semibold">Preparing to Manage Human Resources</span></div>
+                    <span className="text-xs text-gray-500 ml-6">University of Minnesota &bull; 05/2023</span>
                   </li>
                 </ul>
               </div>
@@ -367,6 +457,45 @@ export default function Home() {
                       <div className="bg-gradient-to-r from-purple-600 to-pink-600 h-2 rounded-full" style={{ width: '70%' }}></div>
                     </div>
                   </div>
+                  <div>
+                    <div className="flex justify-between mb-1 text-sm">
+                      <span className="font-semibold">Urdu</span>
+                      <span className="text-gray-600">Conversational</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-purple-600 to-pink-600 h-2 rounded-full" style={{ width: '60%' }}></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* References Section */}
+      <section id="references" className="relative py-20 lg:py-32 bg-gray-50">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">References</h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-teal-500 to-emerald-600 mx-auto rounded-full"></div>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg border-2 border-transparent hover:border-teal-100 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Md. Golam Rabbani</h3>
+                <p className="text-teal-600 font-semibold text-sm mb-4">Assistant Professor &bull; Stamford University Bangladesh</p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p className="flex items-center gap-2"><FaEnvelope className="text-teal-500" /> <a href="mailto:mgrabbani@stamforduniversity.edu.bd" className="hover:text-teal-700 transition">mgrabbani@stamforduniversity.edu.bd</a></p>
+                  <p className="flex items-center gap-2"><FaPhone className="text-teal-500" /> +8801711575142</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg border-2 border-transparent hover:border-emerald-100 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Mohammed Jaynal Abedin</h3>
+                <p className="text-emerald-600 font-semibold text-sm mb-4">Associate Professor &bull; Stamford University Bangladesh</p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p className="flex items-center gap-2"><FaEnvelope className="text-emerald-500" /> <a href="mailto:abedin1994@stamforduniversity.edu.bd" className="hover:text-emerald-700 transition">abedin1994@stamforduniversity.edu.bd</a></p>
+                  <p className="flex items-center gap-2"><FaPhone className="text-emerald-500" /> +8801790605606</p>
                 </div>
               </div>
             </div>
