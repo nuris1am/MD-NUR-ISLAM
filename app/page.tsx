@@ -60,7 +60,7 @@ export default function Home() {
                 Operations Officer | Aspiring HR Strategist
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                A Bachelor of Business Administration (HRM) graduate with expertise in operations, project management, and business development. Passionate about organizational behavior and strategic HRM, I am seeking Master&apos;s degree opportunities to advance research in workplace diversity, cross-cultural environments, and HR analytics.
+                A results-driven Operations Officer and BBA (HRM) graduate with expertise in operations management, business development, and strategic human resource practices. Committed to driving organizational excellence, building high-performance teams, and creating inclusive workplaces through data-driven HR solutions.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <a href="mailto:nurislamsub@gmail.com" className="group relative px-8 py-4 bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 hover:from-green-700 hover:via-emerald-700 hover:to-teal-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center gap-3 overflow-hidden">
@@ -108,7 +108,7 @@ export default function Home() {
                     My background spans across leading visa processing operations to driving enterprise ERP business development. Through this hands-on experience and my academic training, I have developed a keen interest in HR analytics and talent development.
                   </p>
                   <p>
-                    <strong>Objective:</strong> I am actively seeking Master&apos;s degree opportunities at internationally recognized universities. I aim to advance my expertise in organizational behavior, strategic HRM, and workplace diversity & inclusion, applying data-driven research to solve complex cross-cultural challenges.
+                    <strong>Professional Objective:</strong> To leverage my hands-on experience in visa operations, business development, and HR to take on senior leadership roles where I can drive operational efficiency, develop people-first strategies, and contribute to sustainable organizational growth — both locally and on a global scale.
                   </p>
                 </div>
                 <div className="space-y-4">
